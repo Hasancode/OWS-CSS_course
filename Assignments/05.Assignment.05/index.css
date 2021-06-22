@@ -1,0 +1,49 @@
+.div-shadow {
+    text-shadow: 0.5px 0.5px 0 red , 1px 1px 0 blue , 2px 2px 0 purple  ;
+}
+
+.one {
+    text-transform: uppercase;
+}
+
+.two {
+    text-transform: capitalize;
+}
+
+.three {
+    text-transform: lowercase;
+}
+
+.div,
+.div2,
+.div3 {
+    width: 400px;
+    background-color: #EEE;
+    padding: 20px;
+}
+
+.div2 {
+    max-width: 400px;
+    height: 7px;
+    display: block;
+    padding-right: 10px;
+    padding-right: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    word-break: break-all;
+}
+
+.div3 {
+    height: 7px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+a {
+    background-color: rgb(61, 137, 236);
+    padding: 10px;
+    color: white;
+    display: inline-block;
+    border-bottom: rgb(5, 35, 65);
+}

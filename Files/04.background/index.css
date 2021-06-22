@@ -1,0 +1,10 @@
+div {
+    background-color: red; /* color name */
+    background-color: rgb(255 0 0 / 50% ); /* red green blue alpha channel */
+    background-color: #FF0000; /* Color hex code ===>>> [ red green blue => 00 (red) , 00 (green) , 00 (blue) ] */
+    background-image: url(image.png); /* Path of the image */
+    background-repeat: no-repeat;
+    background-attachment: scroll; /* scroll => not scroll with content , fixed => scroll with content */
+    background-position: right top; /* left , right , top , bottom , center / px / %  */
+    background-size: contain; /* auto , cover , contain / px => no strish / % => strish  */
+}

@@ -1,0 +1,36 @@
+/*
+3D transform
+- rotate
+rotateX(..deg)
+rotateY(..deg)
+rotate3d(rotateX, rotateY, rotateZ, ..deg)
+- transform
+- perspective => For parent element
+- perspective-origin: right top;
+    top is bottom
+    right is left 
+*/
+
+.div1 {
+    background-color: rgb(180, 160, 160);
+    width: 100px;
+    height: 100px;
+    margin: 60px auto;
+    padding: 10px;
+    perspective: 300px;
+    perspective-origin: right bottom;
+}
+
+.div2 {
+    background-color: rgb(143, 129, 129);
+    z-index: 2;
+    width: 100px;
+    height: 100px;
+    opacity: 0.7;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: rotateY(90deg); */
+    transform: translate3d(100px, 0, 200px);
+}

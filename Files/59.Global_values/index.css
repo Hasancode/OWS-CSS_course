@@ -1,0 +1,20 @@
+/*
+CSS global values 
+- inherit 
+- interial  => Return to default value , the default value of all elements => display: inline
+- unset 
+--- if inherit => inhirit
+--- if not => intitial 
+- revert CSS level ( 4 ) 
+- all 
+*/
+
+div {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #eee;
+    padding: 20px;
+    margin: 5px;
+    border: 2px solid black;
+}

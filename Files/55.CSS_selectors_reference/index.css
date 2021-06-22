@@ -1,0 +1,169 @@
+/*
+CSS selecors :
+- * => Style all elements in the HTML file 
+- Element => ( p, div, h2 )
+- ELement other element => div p    => The p inside div ( Nesting )
+- .Class-name
+- #id-name
+- .Parent .child => element with class child inside element with class parent
+- .class-one.class-two => Element has two classes 
+- .class-name div, .class-name p => any div inside elemnet has class-name  and p inside element has class name 
+- Element.class-name => element has class-name
+- .Parent > .child => Direct child 
+===========
+Part 2
+- Element + other element => ( div + p ) Next elemnt  
+- [Atribute]    => All elements with this atribute 
+- Element[Atribute]
+- [Atribute=value]
+- Element[Atribute=value]   => input[type="search"]
+- [Atribute~=value] => contains a word = the value 
+- [Atribute*=value] => contains a sting = the value 
+- [Atribute^=value] => Starts with a sting = the value 
+==================
+Part 3 
+- :first-child
+- :last-child
+- :first-of-type
+- :last-of-type
+- :only-child
+- :only-of-type
+==================
+Part 4
+- :not()
+- :nth-child(n) => even - odd
+- :nth-last-child(n)
+- :nth-of-type(n)
+- :nth-last-of-type(n)
+==================
+Part 5
+- :root => access HTML tag 
+- :checked
+- :disabled
+- :required
+- :focus
+- ::selection
+- ::placeholder
+*/
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.class-name div,
+.class-name p {
+    
+}
+
+.parent .child {
+    
+}
+
+.parent > .child {
+    color: red;
+} */
+
+/* ------------ */
+
+/* div + p {
+    color: red;
+} */
+
+/* p ~ div {
+    color: red;
+} */
+
+/* div[title] {
+    color: red;
+} */
+
+/* div[title="501"] {
+    color: red;
+} */
+
+/* [title~="Div"] {
+    color: red;
+} */
+
+/* [title*="Div"] {
+    color: red;
+} */
+
+/* [title^="50"] {
+    color: red;
+} */
+
+/* --------- */
+
+/* div:last-child {
+    color: red;
+} */
+
+/* p:only-of-type {
+    color: red;
+} */
+
+/* ------- */
+
+/* p:not(.special) {
+    color: red;
+} */
+
+/* p:nth-child(odd) {
+    color: red;
+} */
+
+/* p:nth-last-child(3) {
+    color: red;
+} */
+
+/* div:nth-last-child(6) {
+    color: red;
+} */
+
+/* div:nth-last-of-type(1) {
+    color: red;
+} */
+
+/* ------------ */
+
+/* input[type="checkbox"]:checked + label {
+    color: red;
+} */
+
+div:empty {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+/* input:disabled {
+    color: red;
+} */
+
+/* input:required + span {
+    color: red;
+} */
+
+/* input:required + span::before {
+    content: "*";
+    color: red;
+} */
+
+/* input:focus {
+    border: 2px solid red;
+} */
+
+/* div::selection {
+    background-color: black;
+    color: white;
+} */
+
+::placeholder {
+    color: red;
+}

@@ -1,0 +1,5 @@
+div {
+    filter: grayscale(100%);    /* Make the element black and color */
+    filter: blur(4px);
+    filter: invert(100%);   
+}

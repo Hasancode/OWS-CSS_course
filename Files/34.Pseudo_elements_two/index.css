@@ -1,0 +1,30 @@
+
+div {
+    background-color: #EEE;
+    width: 100px;
+    position: relative;
+    padding: 15px;
+    counter-increment: name;
+    margin-bottom: 7px;
+}
+
+div::before {
+    content: "";
+    position: absolute;
+    background-color: rgb(35, 110, 221);
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 48px;
+}
+
+div::after {
+    content: counter(name);
+    position: absolute;
+    background-color: rgb(190, 175, 175);
+    width: 15px;
+    height: 17px;
+    padding: 3px;
+    text-align: center;
+    right: -11px;
+}

@@ -1,0 +1,108 @@
+/* 
+    transform : if y not exist => y = x
+        scalex()
+        scaley()
+        scale()
+    transorm :
+        - rotate 
+            - deg => degree 
+            - rad => radians
+            - grad => gradians
+            - turn => turn
+        - translate
+            x, y    if y not exist => 0
+                x + => right 
+                y + => down 
+        - skew  if y not exist => 0 
+            skewx
+            skewy
+            skew
+        - matrix
+        scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY()
+    transform-origin
+    default values => 50% 50% 0 
+    2D transform => transform-origin(x, Y)
+    3D transform => transform-origin(x, y, z)
+    x-axis 
+        - CSS unit ( px, em, rem )
+        - %
+        - keyword
+            - left => 0% 
+            - center => 50%
+            - right => 100%
+    y-axis 
+        - CSS unit ( px, em, rem )
+        - %
+        - keyword
+            - top => 0% 
+            - center => 50%
+            - botton => 100%
+*/
+
+.div1 {
+    background-color: #DDD;
+    width: 150px;
+    height: 150px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+.div1 div {
+    background-color: tomato;
+    color: white;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: .7;
+    position: relative;
+    transition: 3s;
+    transform: scale(100px, 100px);
+    /* transform: matrix(1.2, 0.2679, 0, 1.2, 20, 20); */
+    /* transform: translateX(20) translateY(20) scaleX(1.2) skewY(15deg) skewX(0) scaleY(1.2); */
+}
+
+/* .div1 div:hover {
+    transform: rotate(90deg);
+} */
+
+.origin {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+} 
+
+/* .div1 div:hover {
+    transform: matrix(2, 0, 0, 2, 50, 50);
+} */
+
+/* ---- */
+
+h2 {
+    position: relative;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 20px;
+    color: white;
+}
+
+h2::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    left: 0;
+    top: 0;
+    z-index: -1;    
+}

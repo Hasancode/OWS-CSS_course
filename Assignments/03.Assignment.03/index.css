@@ -1,0 +1,48 @@
+.first {
+    border: 5px solid red;
+}
+
+.second {
+    border: 5px solid blue ;
+    border-right: 5px solid green;
+    border-left: 5px solid green;
+}
+
+.third {
+    border-left: 5px dashed yellow;
+    border-top: 5px dashed red;
+    border-right: 5px dashed green;
+    border-bottom: 5px dashed blue;
+}
+
+.first,
+.second,
+.third {
+    background-color: #EEE;
+    display: inline-block;
+    outline: 5px solid black;
+    margin: 10px;
+    padding: 20px;
+}
+
+.div1 {
+    border-left: 5px solid red;
+}
+
+.div3 {
+    border-left: 5px solid blue;
+}
+
+.div2{
+    visibility: hidden;
+}
+
+.div1,
+.div2,
+.div3 {
+    background-color: #EEE;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 5px;
+}

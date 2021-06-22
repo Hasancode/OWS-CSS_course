@@ -1,0 +1,9 @@
+/* 
+    text-shadow : H-shadow V-shadow Blur color 
+*/
+
+div {
+    background-color: #EEE; 
+    color: black;
+    text-shadow: 0 0 0 red;
+}

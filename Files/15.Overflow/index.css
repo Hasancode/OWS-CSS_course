@@ -1,0 +1,10 @@
+/* overflow : visible , hidden , scroll , auto */
+
+div {
+    background-color: #EEE;
+    margin: 30px; 
+    float: center;
+    width: 200px;
+    height: 200px;
+    overflow-y: scroll;
+}

@@ -1,0 +1,19 @@
+.parent {
+    background-color: red;
+    padding: 10px;
+    overflow: hidden;
+
+}
+
+
+.parent div {
+    text-align: center;
+    padding: 10px;
+    background-color: #EEE;
+    width: 25%;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}

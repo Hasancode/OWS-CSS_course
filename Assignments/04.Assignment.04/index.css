@@ -1,0 +1,41 @@
+/* div.parent div.child span{
+    color: red;
+}
+
+div.parent span{
+    color: blue;
+}
+
+div p , div.title {
+    color: green;
+} 
+*/
+
+.div1 {
+    background-color: #913333;
+    width: 60px;
+}
+
+.div2 {
+    background-color: #913333;
+    width: 185px;
+}
+
+.div3 {
+    background-color: #913333;
+    width: 280px;
+}
+
+.div4 {
+    background-color: #913333;
+    width: 400px;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+
+div1, 
+div2,
+div3,
+div4 {
+    padding: 10px;
+}

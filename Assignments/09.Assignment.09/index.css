@@ -1,0 +1,106 @@
+.one,
+.two,
+.three {
+    width: 300px;
+    height: 60px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+}
+
+.one,
+.three {
+    color: black;
+    background-color: #DDD;
+}
+
+.two {
+    background-color: red;
+}
+
+/* ----- */
+
+.four {
+    background-color: #DDD;
+    margin: 30px 400px;
+    width: 400px;
+    height: 70px;
+    text-align: center;
+    position: relative;
+}
+
+.four::before {
+    content: "1";
+    width: 30px;
+    height: 40px;
+    color: white;
+    background-color: red;
+    position: absolute;
+    left: -10px;
+    top: 20%;
+}
+
+/* --- */
+
+.div1 {
+    margin-left: 50px;
+    background-color: #EEE;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    width: 400px;
+    display: inline-block;
+    border-left: 4px solid rgb(243, 22, 158);
+    position: relative;
+}
+
+.div1::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-right: 7px solid rgb(243, 22, 158) ;
+    border-left: 15px solid transparent ;
+    border-top: 15px solid transparent ;
+    border-bottom: 15px solid transparent;
+    top: 15%;
+    left: -26px;
+}
+
+span {
+    display: inline-block;
+    background-color: #EEE;
+    padding: 10px;
+    width: 60px;
+}
+
+/* -------- */
+
+p {
+    background-color: #DDD;
+    padding: 10px;
+    border-right: 5px solid rgb(197, 62, 28);
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    margin-left: 60px;
+    padding-left: 70px;
+    position: relative;
+}
+
+* {
+    counter-increment: hasan;
+}
+
+p::before {
+    content: counter(hasan);
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    padding: 10px;
+    left: 0;
+    top: 0;
+    background-color: rgb(197, 62, 28);
+}
+
+

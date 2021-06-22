@@ -1,0 +1,144 @@
+/* @media print {
+    .assign-one {
+        font-size: 40px;
+    }
+} */
+
+/* ------ */
+
+/* .parent {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.parent > div {
+    background-color: #DDD;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+/*  */
+
+/* Medium
+@media (min-width: 992px) {
+    .parent > div {
+        width: 45%;
+        margin-bottom: 10px;
+    }
+    .parent .one div,
+    .parent .two div,
+    .parent .tMobile and small 
+@media (max-width: 991px) {
+    .parent .one .head1,
+    .parent .two .head2,
+    .parent .three .head3,
+    .parent .four .head4 {
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+    }
+}hree div,
+    .parent .four div {
+        color: red;
+        font-weight: bold;
+    }
+} */
+
+/* Large
+@media (min-width: 1200px) {
+    .parent > div {
+        width: 20%;
+    }
+    .parent .one div,
+    .parent .two div,
+    .parent .three div,
+    .parent .four div {
+        color: teal;
+    }
+} */
+
+
+/* -------- */
+
+
+.parent {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.parent > div {
+    background-color: #DDD;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+/* Mobile and small */
+@media (max-width: 991px) {
+    .parent .one .head1,
+    .parent .two .head2,
+    .parent .three .head3,
+    .parent .four .head4 {
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+    }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+    .parent > div {
+        margin-bottom: 20px;
+    }
+    .parent > .one {
+        width: 90%;
+    }
+    .parent > .two,
+    .parent > .three,
+    .parent > .four {
+        width: calc(78% / 3);
+    }
+    .parent .one div,
+    .parent .two div,
+    .parent .three div,
+    .parent .four div {
+        color: red;
+        font-weight: bold;
+    }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+    .parent > div {
+        margin-bottom: 20px;
+    }
+    .parent > .one {
+        width: 90%;
+    }
+    .parent > .two,
+    .parent > .three {
+        width: calc(84% / 2);
+    }
+    .parent > .four {
+        width: 90%;
+    }
+    .parent .one div,
+    .parent .two div,
+    .parent .three div,
+    .parent .four div {
+        color: teal;
+    }
+}

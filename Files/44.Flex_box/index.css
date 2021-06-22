@@ -1,0 +1,91 @@
+/* 
+For parent
+    - display : flex => To start flexable box
+    - flex-direction : 
+        row (default value) , row-reverse
+        column , column-reverse 
+    - flex-wrap : 
+        nowrap (default value) 
+        wrap
+        wrap-reverse
+    - flex-flow: flex-direction flex-wrap
+    ------------------------------------------
+    - justify-content : => Make all content in the left or to the right
+        flex-start (default value)
+        flex-end 
+        center
+        space-between   => Space horizontal
+        space-around    => Space horizontal
+        space-evenly => Calc the space and make it around and between elements with equal in all elements 
+    ------------------------------------------
+    - align-items : 
+        stretch => (default value) => If width height stretch is bigger than the parent height , the parent height stretch with the child height
+        flex-start => start from top
+        flex-end => start from bottom
+        center => align items in center verical
+    ------------------------------------------
+    - align-content : 
+        strech (default value)
+        flex-start  
+        flex-end    
+        space-between  => Space vertical 
+        space-around   => Space vertical 
+        space-evenly   => Space vertical 
+for child 
+    - flex-grow : 0 (default value)
+    - flex-shrink : 1 (default value)
+    - order : 1 (default value)
+    - flex-bases : auto (default value) => Define the width and height of the element , when flex-direction : row => define width , when flex-direction : column => define height ,,, respect the width of the element 
+    - flex : flex-grow flex-shrink flex-bases 
+display: inline-flex
+*/ 
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 30px 150px 0;
+}
+
+.flex {
+    background-color: #DDD;
+    width: 800px;
+    height: 400px;
+    padding: 20px;
+    margin: 20px auto;
+    display: inline-flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row nowrap;
+    /* align-items: flex-start;
+    align-content: space-evenly; */
+    justify-content: flex-start;
+    align-items: stretch
+}
+
+.flex div {
+    background-color: #f00;
+    color: white;
+    width: 80px;
+    text-align: center;
+    padding: 20px;
+    margin-right: 5px;
+    flex-grow: 1;
+}
+
+.center {
+    background-color: blue;
+    color: white;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* line-height: 200px;
+    text-align: center; */
+}
+
+.in {
+    display: inline-block;
+}

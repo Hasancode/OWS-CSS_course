@@ -1,0 +1,29 @@
+/*
+
+[1] New CSS feature appered 
+[2] Browsers tests the feature in version x
+[3] Browsers add prefix to give divelopers the ability to use it
+[4] The feature is fully supported in version y, no need for predix
+
+-webkit- => chrome, safari, new opera version
+-moz- => Firefox
+-ms- Ie, edge
+-o- Old versions of opera
+
+*/
+
+.class {
+    /*
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+    */
+    border-radius: 10px;
+}
+
+/* 
+    [1] Most of users is using modern browsers
+    [2] Vs code addon to add the prefix
+    [3] Task runner 
+*/

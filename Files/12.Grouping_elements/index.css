@@ -1,0 +1,33 @@
+.one {
+    padding: 10px;
+    border-bottom: 2px solid red;
+    margin: 10px 0;
+}
+
+.tow {
+    padding: 10px;
+    border-bottom: 2px solid green;
+    margin: 10px 0;
+}
+
+.three {
+    padding: 10px;
+    border-bottom: 2px solid blue;
+    margin: 10px 0;
+}
+
+.four { 
+    padding: 10px;
+    border-bottom: 2px solid black;
+    margin: 10px 0;
+}
+
+.one,
+.tow,
+.three,
+.four {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #EEE;
+}
+

@@ -1,0 +1,56 @@
+/*
+Animation
+    - Direction
+    - Delay 
+    - Fill-mode
+    - Ply-state
+    - Shorthand
+*/
+
+div {
+    background-color: #DDD;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* transform: translate(-50px, -50px); */
+    margin-left: -50px;
+    margin-top: -50px;
+    /* border-radius: 50%;
+    border: 5px solid tomato;
+    border-left-color: transparent; */
+    /* transition: .3s; */
+    /* transform: rotate(1turn); */
+    /* animation-name: coloring ;    */
+    /* animation-duration: 6s; */
+    /* animation-iteration-count: 1; */
+    /* animation-timing-function: linear; */
+    /* animation-direction: reverse; */
+    /* animation-delay: 2s; - is minus from the duration | ex: if -2 , start duration (if it 5s) from 3 not 0 */
+    /* animation-fill-mode: both; forward : Take a last keyframe stype both : Take a last style depend of direction ( take last keyframe ) */
+    /* animation-play-state: running; */
+    animation: coloring 3s linear 2s infinite reverse;
+}
+/* div:hover {
+    animation-play-state: paused;
+} */
+/* 
+    from = 0
+    to = 100%
+*/
+@keyframes coloring {
+    0 {
+        background-color: red;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        background-color: black;
+    }
+}

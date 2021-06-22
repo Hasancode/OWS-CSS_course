@@ -1,0 +1,23 @@
+/* Css syntax */ 
+
+/* 
+Selector {
+    property : value; => Declaration 
+    property : value; => Declaration 
+}
+*/ 
+/* 
+.class {
+    property : value; => Declaration 
+    property : value; => Declaration 
+}
+*/ 
+/* 
+#id {                                  => Not best practice 
+    property : value; => Declaration 
+    property : value; => Declaration 
+}
+*/ 
+p {
+    color: red;
+}

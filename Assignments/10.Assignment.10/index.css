@@ -1,0 +1,101 @@
+* {
+    counter-increment: hasan;
+}
+
+.div2 {
+    background-color: #DDD;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    margin-left: 70px;
+    margin-top: 30px;
+    box-shadow: -10px -10px 0 0 rgb(253, 80, 253), 10px 10px 0 0 rgb(27, 141, 247);
+}
+
+.div2::before {
+    content: counter(hasan);
+    position: absolute;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    top: -10px;
+    left: 35px;
+}
+
+/* --- */
+
+.div3 {
+    margin: 30px 400px;
+    width: 100px;
+    height: 100px;
+    background-color: #DDD;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 0 10px 0 black inset;
+}
+
+/* --- */
+
+.container {
+    width: 550px;
+    padding: 10px;
+    margin: 40px 400px;
+}
+
+.one,
+.two {
+    background-color: #DDD;
+    width: 240px;
+    height: 280px;
+    display: inline-block;
+}
+
+.divone ,
+.divtwo {
+    display: inline-block;
+    background-color: rgb(204, 203, 203);
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    margin: 50px 50px 20px;
+}
+
+.or {
+    display: inline-block;
+    padding: 7px;
+    background-color: rgb(60, 193, 226);
+    border-radius: 50%;
+    color: white;
+    position: relative;
+}
+
+.or::before {
+    position: absolute;
+    content: "";
+    color: rgb(60, 193, 226);
+    height: 50px;
+    width: 10px;
+    top: -10px;
+    left: 20px;
+}
+
+button {
+    width: 150px;
+    background-color: rgb(60, 193, 226);
+    color: white;
+    outline: none;
+    border: none;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 20px;
+}

@@ -1,0 +1,29 @@
+div {
+    background-color: #EEE;
+    width: 100px;
+    position: relative;
+    padding: 15px;
+}
+
+div::before {
+    content: "";
+    position: absolute;
+    background-color: rgb(35, 110, 221);
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 48px;
+}
+
+div::after {
+    content: "";
+    position: absolute;
+    top: 20%;
+    right: -20px;
+    width: px;
+    height: 0px;
+    border-right: 10px solid transparent;
+    border-left: 10px solid blue;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}

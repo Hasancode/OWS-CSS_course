@@ -1,0 +1,15 @@
+/* h1 { 
+    color: red;
+}
+
+h1 { 
+    color: initial;
+} */
+
+.word {
+    color: green;
+}
+
+span {
+    color: initial   ;
+}

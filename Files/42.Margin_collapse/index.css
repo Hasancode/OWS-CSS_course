@@ -1,0 +1,44 @@
+/*  
+    [1] Only vertical margin collapse 
+    [2] Bigger margin wins 
+    [3] Margin collapsing with elements without anything between
+    [4] Margin does not prevent collapsing 
+*/
+
+.container {
+    overflow: hidden;
+    margin: auto;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    background-color: #eee;
+}
+
+.div-left ,
+.div-right {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.div-left {
+    background-color: #ddd;
+}
+
+.div-right {
+    background-color: rgb(145, 120, 120);
+}
+
+.up {
+    background-color: red;
+    color: white;
+    height: 80px;
+    margin-bottom: 40px;
+}
+
+.down {
+    background-color: green;
+    color: white;
+    height: 80px;
+    margin-top: 20px;
+}

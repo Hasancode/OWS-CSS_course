@@ -1,0 +1,10 @@
+p {
+    width: 400px;
+    background-color: #EEE;
+    letter-spacing: 4px;
+    text-indent: 40px;
+    white-space: nowrap;
+    word-wrap: break-word;
+    line-height: 1.6;
+
+}

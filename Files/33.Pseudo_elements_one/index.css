@@ -1,0 +1,4 @@
+div::selection {
+    background-color: black;
+    color: yellow;
+}

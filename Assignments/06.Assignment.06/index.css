@@ -1,0 +1,46 @@
+
+div {
+    margin: 0 290px;
+    padding: 10px;
+    border: 2px solid rgb(255, 166, 0);   
+}
+
+.div-p {
+    border: inherit;
+    background-color: #DDD;
+    padding: inherit;
+    text-align: center;
+    font-size: 16px;
+}
+
+.one1 {
+    font-style: italic;
+    font-weight: 300;
+    font-family: 'open sans', sans-serif;
+}
+
+.one2 {
+    font-weight: 700;
+    font-family: 'cairo', sans-serif;
+}
+
+.one3 {
+    font-weight: 400;
+    font-family: 'jomhuria';
+}
+
+:root {
+    font-size: 20px;
+}
+
+.two1 {
+    font-size: 2.5rem;
+}
+
+.two2 {
+    font-size: 2rem;
+}
+
+.two3 {
+    font-size: 1.5rem;
+}

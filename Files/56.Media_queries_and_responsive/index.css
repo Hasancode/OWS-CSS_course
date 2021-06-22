@@ -1,0 +1,83 @@
+/*
+- media queries 
+- responsive
+-----------
+- Concipt of width 
+- Mobile 
+- small screens
+- medium screens 
+- large screens 
+- Future updates  
+*/
+
+.flex {
+    width: 1200;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex div {
+    background-color: red;
+    color: white;
+    width: 290px;
+    text-align: center;
+}
+
+/* @media print {
+    .flex div:first-child {
+        display: none;
+    }
+} */
+
+/* @media (min-width: 1000px) {
+    .flex div {
+        background-color: blue;
+    }
+} */
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .flex div {
+        background-color: blue;
+    }
+}
+
+/* ----- */
+
+/* Mobile */
+
+@media (max-width: 767px) {
+
+}
+
+/* Small screens  */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Medium screens  */
+
+@media (min-width: 992px) {
+
+}
+
+/* Large screens */
+
+@media (min-width: 1200px) {
+    
+}
+
+/* X Large screens */
+
+@media (min-width: 1400px) {
+    
+}
+
+
+/* Custom  */
+
+@media (max-width: 1199px) {
+
+}

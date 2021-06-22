@@ -1,0 +1,62 @@
+.div1 {
+    background-color: #EEE;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+    margin: 50px 80px;
+    transition-duration: .5s;
+}
+
+.div1:hover {
+    margin-top: 30px;
+}
+
+.div1:hover .div2 {
+    margin-top: 20px;
+}
+
+.div2 {
+    background-color: #DDD;
+    width: 220px;
+    height: 50px;
+    margin-left: 80px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    transition-delay: .5s;
+    transition-duration: .5s;
+}
+
+/* ------ */
+
+.div3 {
+    background-color: #DDD !important;
+    font-size: 20px !important;
+    text-align: center;
+    width: 400px;
+    margin: 40px 40px;
+    overflow: hidden;
+    white-space: nowrap;
+    color: black !important;
+}
+
+span {
+    visibility: hidden;
+}
+
+/* --- */
+
+/* :root {
+    --mainColor: #009688;
+    --mainPadding: 10px;
+} */
+  
+div {
+    color: var(--mainColor), red  ;
+    padding: var(--mainPadding), 10px;
+    border: 1px solid ;
+    border-color: var(--mainColor), black;
+    margin-top: 20px;
+    width: 400px;
+}

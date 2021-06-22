@@ -1,0 +1,8 @@
+div {
+    background-color: thistle;
+    width: 300px;
+    padding: 10px;
+    margin: 50px;
+    border: 10px solid red;
+    outline: 10px solid green; /* outline has one direction => no 4 values for property */
+}

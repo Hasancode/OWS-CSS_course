@@ -1,0 +1,24 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 20px auto;
+    overflow: hidden;
+    height: 100px;
+    background-color: #EEE;
+    width: 600px;
+}
+
+.div {
+    float: left;
+    background-color: #DDD;
+    width: 300px;
+    margin-top: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 30px solid red;
+}

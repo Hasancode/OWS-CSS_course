@@ -1,0 +1,20 @@
+table {
+    border: 1px solid #CCC;
+    width: 400px;
+    padding: 5px;
+    border-spacing: 20px;
+}
+
+thead td {
+    font-weight: bold;
+    background-color: brown;
+    border: 3px solid red;
+    text-align: center;
+}
+
+tbody td {
+    text-align: center;
+    border: 2px solid #CCC;
+    background-color: #EEE;
+    padding: 15px;
+}

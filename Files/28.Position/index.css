@@ -1,0 +1,32 @@
+/*  
+    static => normal
+    relative => move around
+    absoulote => move on his parent
+    fixed => move on his parent with scroll 
+    sticky => scroll when you scroll to it
+*/
+
+
+body {
+    height: 5000px;
+}
+
+.one {
+    background-color: red;
+    font-size: 10px;
+    width: 60px;
+    height: 30px;
+}
+
+.two {
+    background-color: green;
+    font-size: 10px;
+    width: 60px;
+    height: 30px;
+}
+
+.div {
+    background-color: blue;
+    width: 400px;
+    height: 200px;
+}

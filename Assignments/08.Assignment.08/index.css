@@ -1,0 +1,153 @@
+.black,
+.blue,
+.green, 
+.red {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.black {
+    z-index: 1;
+    margin: 30px 20px ;
+    background-color: black;
+}
+
+.blue {
+    z-index: 2;
+    margin: 20px 20px;
+    background-color: blue;
+}
+
+.green {
+    z-index: 3;
+    margin: 30px 30px;
+    background-color: green;
+}
+
+.red {
+    z-index: 4;
+    margin: 40px 40px;
+    background-color: red;
+}
+
+/*  ---  */
+
+.div {
+    width: 400px;
+    background-color: #DDD;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    border-right: 2px solid blue;
+    border-left: 2px solid blue;
+    position: absolute;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+.top-right , 
+.top-left, 
+.bottom-right, 
+.bottom-left {
+    width: 30px;
+    height: 30px;
+    color: white;
+    padding: 4px;
+    background-color: blue;
+}
+
+.top-right {
+    position: relative;
+    top: -80px;
+    right: -146px;
+    border-left: 2px solid red;
+}
+
+.top-left {
+    position: relative;
+    top: -80px;
+    left: -255px;
+    border-right: 2px solid red;
+}
+
+.bottom-left {
+    position: relative;
+    bottom: -30px;
+    left: -275px;
+    border-right: 2px solid red;
+}
+
+.bottom-right {
+    position: relative;
+    bottom: -30px;
+    right: -123px;
+    border-left: 2px solid red;
+}
+
+/* ------------ */
+
+.ul {
+    margin-top: 200px;
+    margin-left: 400px;
+    width: 400px;
+    margin-bottom: 60px;
+}
+
+.li1 {
+    background-color: #DDD;
+    padding: 10px;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.li2 {
+    background-color: white;
+    height: 30px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+#li23 {
+    list-style-position: inside;
+    margin-left: -40px;
+}
+
+/* ---- */
+
+table {
+    margin-left: 200px;
+    width: 700px;
+    border-bottom: 3px solid rgb(16, 150, 202);
+}
+
+thead th {
+    background: rgb(54, 50, 50);
+    color: white;
+    height: 50px;
+}
+
+td {
+    background: #DDD;
+    height: 50px;
+    text-align: center;   
+}
+
+.view {
+    background-color: rgb(32, 111, 172);
+    color: white;
+    padding: 5px;
+    margin-right: 5px;
+    outline: none;
+    border: none;
+    width: 60px;
+}
+
+.delete {
+    background-color: rgb(228, 33, 147);
+    color: white;
+    padding: 5px;
+    margin-right: 5px;
+    outline: none;
+    border: none;
+    width: 60px;
+}

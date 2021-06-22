@@ -1,0 +1,43 @@
+/*
+    Global variable 
+    Local variable
+    var(variable name)
+*/
+
+:root {
+    --Maincolor: red;
+    --Mainpadding: 20px;
+}
+
+.one {
+    color: white;
+    background-color: var(--Maincolor);
+    padding: calc(10px + var(--Mainpadding));
+}
+
+.two {
+    color: var(--Maincolor);
+    background-color: white;
+    padding: var(--Mainpadding);
+}
+
+.three {
+    color: var(--Maincolor);
+    padding: var(--Mainpadding);
+    border: 2px solid var(--Maincolor);
+    margin-bottom: 20px;
+}
+
+a {
+    color: var(--Maincolor);
+}
+
+a:visited {
+    color: var(--Maincolor);
+}
+
+.local {
+    --Maincolor: black; /* Local variable (Only this element can use it) */
+    background-color: var(--Maincolor);
+    color: white;
+}

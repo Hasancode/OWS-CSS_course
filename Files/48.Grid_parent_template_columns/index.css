@@ -1,0 +1,55 @@
+/* 
+    Grid
+    Parent 
+    - display: grid | inline-grid
+    - grid-template-columns => number of columns in => px, %, auto, repeat(number of columns , width), mix
+    - grid-template-rows => number of columns in => px, % , auto , fraction , mix
+    - row gap : px , % .. 
+    - column gap : px , % ..
+    - gap : row gap  column gap
+    - justify-content : 
+        flex-start
+        flex-end
+        center
+        space-between
+        space-around
+        space-evenly
+    - align-content: 
+        flex-start
+        flex-end
+        space-between
+        space-around
+        space-evenly
+    Child 
+    - grid-column : start end => 1 / 4 => span 3
+    - grid-row : start end => 1 / 4 => span 3
+    - grid-area : row-start column-start row-end column-end
+    --------
+    minmax : minimum width  maximum width
+    auto-fill : ..px
+        fill the width auto 
+
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+.parent {
+    margin: 20px auto;
+    height: 500px;
+    background-color: #DDD;
+    display: grid;
+    /* row-gap: 10px;
+    column-gap: 10px; */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.parent div {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}

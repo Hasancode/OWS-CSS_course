@@ -1,0 +1,24 @@
+Style strong 
+	1- Inline style 
+	2- Internal style 
+	3- External style
+---------------------
+Target all elemnts : 
+	
+	p {
+	    color: red
+	}
+
+
+Target class: 
+	
+	.class {
+	    color: red
+	}
+
+
+Target id: 
+	
+	#id {
+	    color: red
+	}

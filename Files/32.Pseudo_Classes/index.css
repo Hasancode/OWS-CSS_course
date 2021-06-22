@@ -1,0 +1,39 @@
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+.ch:checked + label {
+    color: green;
+}
+
+a:visited {
+    color: blue;
+}
+
+div {
+    width: 200px;
+    height: 100px;
+}
+
+p {
+    width: 200px;
+    height: 100px;
+}
+
+:empty {        /* hr is a empty element */
+    border: 10px solid red;
+}
+
+.in {
+    border: 2px solid red;
+}
+
+.in:focus {
+    border-color: green;
+    outline: none;
+}
